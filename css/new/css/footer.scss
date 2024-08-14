@@ -1,0 +1,17 @@
+@import "config.scss";
+
+.footer {
+    position: absolute;
+    margin-top:20px;
+    bottom: 0px;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: $footer-size;
+    background-color: $color-primary;
+
+    .text-muted{
+        text-align: center;
+        color: $font-header-color;
+        margin-top:20px;
+    }
+}

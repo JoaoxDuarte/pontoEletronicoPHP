@@ -1,0 +1,231 @@
+INPUT.Caixa  {
+    font: 11px verdana, arial, helvetica;
+    color: #808080;
+    border: 1px solid #696969;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #f7f3f7;
+}
+
+INPUT.Caixas {
+    font: 11px verdana, arial, helvetica;
+    color: #000000;
+    border: 1px solid #696969;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #ffffff;
+}
+
+INPUT.Caixas2{
+    font: 11px verdana, arial, helvetica;
+    color: #000000;
+    border: 0 solid #0099CC;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #ffffff;
+}
+
+INPUT.Direita{
+    font: 11px verdana, arial, helvetica;
+    color: #808080;
+    border: 1px solid #696969;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #f7f3f7;
+    text-align: Right;
+}
+
+input.centro {
+    font: 11px verdana, arial, helvetica;
+    color: #808080;
+    border: 1px solid #696969;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #f7f3f7;
+    text-align: Center;
+}
+
+SELECT.Drop  {
+    font: 11px verdana, arial, helvetica;
+    color: #808080;
+    border: 1px solid #CCE6FF;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #f7f3f7;
+}
+
+TD.relatorio {
+    font: 11px verdana, arial, helvetica;
+    color:#838687;
+}
+
+TD.corpo {
+    font-family:verdana, arial, helvetica;
+    border-width:0px;
+    border-color:#0080ff;
+    border-style:solid;
+    border-left-width:0px;
+    border-bottom-width:0px;
+    color:#696969;
+    border-color:red;
+}
+
+TD.corpos {
+    font-family:verdana, arial, helvetica;
+    font-size:8px;
+    border-width:1px;
+    border-color:#0080ff;
+    border-style:solid;
+    border-left-width:1px;
+    border-bottom-width:1px;
+    color:#696969;
+    border-color:#336600;
+}
+
+TD.corpo1 {
+    font-family:verdana, arial, helvetica;
+    font-size:8px;
+    border-color:#0080ff;
+    border-style:solid;
+    border-left-width:0px;
+    border-bottom-width:0px;
+    background-color:#ffffff;
+    color:#000099;
+}
+
+TD.corpo2 {
+    font-family:verdana, arial, helvetica;
+    font-size:8px;
+    background-color:#ffffff;
+    color:#000099;
+    border-left-color:lightblue;
+    border-left-width:1px;
+    border-left-style:solid;
+}
+
+TD.tabelas {
+    font-family:verdana, arial, helvetica;
+    font-size:7px;
+    color:#808080;
+}
+
+SELECT{
+    font-family:verdana, arial, helvetica;
+    font-size:8px;
+    border-style:solid;
+    border-color:#000099;
+}
+
+select.baixo {
+    z-index:-1;
+}
+
+H1 {
+    font-family: verdana, arial, helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    color: #696969;
+    text-align: center;
+}
+
+H2 {
+    font-family: verdana, arial, helvetica;
+    font-size: 13px;
+    font-weight: bold;
+    color: #696969;
+    text-align: center;
+}
+
+H3 {
+    font-family: verdana, arial, helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    color: #696969;
+    text-align: center;
+}
+
+A {
+    font:10px verdana, arial, helvetica;
+    color: #808080;
+}
+
+.tab-s, .tab-g {
+    font-size: 9px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tab-s:hover, .tab-g:hover {
+    text-decoration: underline;
+}
+
+.tab-s, .blue{
+    color: #336600;
+}
+
+.tab-g {
+    color: #666666;
+}
+
+
+
+/* SISREF - Cadastro */
+.tahomaSize_1_B { font-family: Tahoma; font-size: 10px; font-weight: bold; color: #FFFFFF; }
+.tahomaSize_1_BP { font-family: Tahoma; font-size: 10px; font-weight: bold; color: #000000; }
+.tahomaSize_1 { font-family: Tahoma; font-size: 10px; font-weight: normal; word-spacing: 0; margin: 0; }
+.tahomaSize_2 { font-family: Tahoma; font-size: 13px; font-weight: normal; word-spacing: 0; margin: 0; }
+.tahomaSize_2_B { font-family: Tahoma; font-size: 13px; font-weight: bold; word-spacing: 0; margin: 0; }
+.tahomaSISREF_4_B { font-family: Tahoma; font-size: 18px; font-weight: bold; color: #333300; word-spacing: 0; margin: 0; }
+.tahomaSISREF_4 { font-family: Tahoma; font-size: 18px; font-weight: normal; color: #333300; word-spacing: 0; margin: 0; }
+.tahomaSISREF_3 { font-family: Tahoma; font-size: 16px; font-weight: normal; color: #333300; word-spacing: 0; margin: 0; }
+
+.verdanaSize_1_B { font-family: Verdana; font-size: 10px; font-weight: bold; color: #FFFFFF; }
+.verdanaSize_1_BP { font-family: Verdana; font-size: 10px; font-weight: bold; color: #000000; }
+.verdanaSize_1 { font-family: Verdana; font-size: 10px; font-weight: normal; word-spacing: 0; margin: 0; }
+.verdanaSize_2 { font-family: Verdana; font-size: 13px; font-weight: normal; word-spacing: 0; margin: 0; }
+.verdanaSize_2_B { font-family: Verdana; font-size: 13px; font-weight: bold; word-spacing: 0; margin: 0; }
+.verdanaSISREF_4_B { font-family: Verdana; font-size: 18px; font-weight: bold; color: #333300; word-spacing: 0; margin: 0; }
+.verdanaSISREF_4 { font-family: Verdana; font-size: 18px; font-weight: normal; color: #333300; word-spacing: 0; margin: 0; }
+.verdanaSISREF_3 { font-family: Verdana; font-size: 16px; font-weight: normal; color: #333300; word-spacing: 0; margin: 0; }
+
+.pSpacing { word-spacing: 0; line-height: 100%; margin-left: 0; margin-right: 0; margin-top: 6px; margin-bottom: 0; }
+.pSpacing2 { word-spacing: 0; line-height: 100%; margin-left: 0; margin-right: 0; margin-top: 6px; }
+.pSpacingT2 { word-spacing: 0; line-height: 100%; margin-left: 0; margin-right: 0; margin-top: 6px; margin-bottom: 0; font-size: 13px; font-family: Tahoma; }
+
+.p1 { margin-top: 0; margin-bottom: 0; }
+.p2 { text-align: center; margin-top: 0; margin-bottom: 0; }
+
+.ftFormFreq-tit-bc { font-family: verdana,arial,tahoma; font-size: 7pt; font-weight: bold; color: #000000; background-color: #DFDFBF; text-align: center; }
+.ftFormFreq-tit-bc-3 { font-family: verdana,arial,tahoma; font-size: 7pt; font-weight: bold; color: #000000; background-color: #DFDFBF; text-align: center; }
+.ftFormFreq-bc-1 { font-size: 7.5pt; font-weight: bold; color: #000000; background-color: #DFDFBF; text-align: center; vertical-align: middle; }
+.ftFormFreq-cn-1 { font-family: verdana,arial,tahoma; font-size: 7.5pt; color: #000000; text-align: center; vertical-align: middle; }
+.ftFormFreq-cn-2 { font-family: verdana,arial,tahoma; font-size: 7.7pt; color: #000000; text-align: center; vertical-align: middle; }
+.ftFormFreq-c { font-size: 7.5pt; color: #000000; background-color: #FFFFFF; text-align: center; vertical-align: middle; }
+.ftFormFreq-bc { font-size: 7.5pt; color: #000000; font-weight: bold; background-color: #FFFFFF; text-align: center; vertical-align: middle; }
+.ftFormFreq-c-2 { font-size: 8pt; color: #000000; background-color: #FFFFFF; text-align: center; vertical-align: middle; }
+.ftFormFreq-c-3 { font-size: 9pt; color: #000000; background-color: #FFFFFF; text-align: center; vertical-align: middle; }
+.ftFormFreq-bc-2 { font-family: Tahoma,verdana,arial; font-size: 11pt; font-weight: bold; color: #333300; background-color: #FFFFFF; text-align: center; vertical-align: middle; }
+
+.borda_arredondada_sombra { box-shadow: 0px 0px 1em #666; -webkit-box-shadow: 0px 0px 1em #666; -moz-box-shadow: 0px 0px 1em #666; }
+.borda_arredondada_sombra { box-shadow: 5px 5px 1em #666; -webkit-box-shadow: 5px 5px 1em #666; -moz-box-shadow: 5px 5px 1em #666; }
+
+.sombra-texto {
+    text-shadow: #000000 2px 3px 2px;
+}
+
+tbody.sse_listar tr:nth-child(even) {
+    background-color: #F2F2E6;
+}
+tbody.sse_listar tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+tbody.sse_listar tr:hover {
+    background-color:#FFD782;
+    color: #fff;
+}

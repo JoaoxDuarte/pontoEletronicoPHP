@@ -1,0 +1,255 @@
+Código      Arquivo                                             Função
+E000001     functions_select                                    selectAutenticacao;
+E000002     functions_select                                    selectTabelaValida;
+E000003     functions_select                                    seleciona_servidoresac
+E000004     functions_select                                    selecionaServidor
+E000005     functions_select                                    selecionaPontoServidor
+E000006     functions_select                                    select_dadosgex
+E000007     functions_select                                    seleciona_dados_da_gerencia
+E000008     functions_select                                    seleciona_dados_da_unidade
+E000009     functions_select                                    gravar_historico_ponto
+E000010     functions_select                                    gravar_historico_servativ
+E000011     functions_select                                    getOvertimeServidor
+E000012     functions_select                                    servidorHasAuthorization
+E000013     functions_select                                    seleciona_ciclos
+E000014     entrada4                                            ----------------
+E000015     functions_select                                    gravar_ciclo
+E000016     functions_select                                    update_ciclo
+E000017     functions_select                                    adicionarip
+E000018     functions_select                                    listSetoresCombo
+E000019     functions_select                                    seleciona_servidores_usufruto_list
+E000020     functions_select                                    seleciona_ips_list
+E000021     functions_select                                    getIpsBySiape
+E000022     functions_select                                    boxCiclos
+E000023     functions_select                                    getCiclo
+E000024     functions_select                                    checkServidor
+E000025     functions_select                                    checkCicloCurrent
+E000026     functions_select                                    getNomeServidor
+E000027     functions_select                                    getSetorServidor
+E000028     functions_select                                    getServidor
+E000029     functions_select                                    getServidorCiclo
+E000030     functions_select                                    validaRangeDatesIntoCiclo
+E000031     functions_select                                    validaRangeDatesNotConflite
+E000032     functions_select                                    create_or_update_autorizacao
+E000033     functions_select                                    create_or_update_autorizacao_historico
+E000034     functions_select                                    create_or_update_autorizacao_usufruto
+    E000035     functions_select                                    create_or_update_autorizacao_usufruto_historico
+    E000036     functions_select                                    checkServidorHasAutorization
+    E000037     functions_select                                    getCicloCurrent
+E000038     functions_select                                    verifySaldo
+E000039     functions_select                                    verifySaldoTypeAutorizationTotal
+    E000040     functions_select                                    getJornadaServer
+    E000041     functions_select                                    getDaysCurrent
+    E000042     functions_select                                    verifyExistsAutorization
+    E000043     functions_select                                    checkAutorizationIsParcial
+    E000044     functions_select                                    create_autorizacao_servidor_ip
+    E000045     functions_select                                    checkIpAccess
+    E000046     functions_select                                    checkStatusByOrgao
+    E000047     functions_select                                    updateAfastamentosBySiape
+    E000048     functions_select                                    getConfiguracaoBasica
+    E000049     functions_select                                    parametrosHoraExtra
+    E000050     functions_select                                    getParamentroHoraExtra
+    E000051     functions_select                                    updateConfiguracoesHoraExtra
+    E000052     functions_select                                    parametrosSigac
+    E000053     functions_select                                    getParamentroSigac
+    E000054     functions_select                                    getCargo
+    E000055     functions_select                                    updateConfiguracoesSigac
+    E000056     functions_select                                    updateCargoFuncao
+    E000057     functions_select                                    cadastrarCargoFuncao
+    E000058     functions_select                                    existsServerByCpf
+    E000059     functions_select                                    getCicloBySiape
+    E000060     functions_select                                    getCicloBySiapeUsufruto
+    E000061     functions_select                                    getConfiguracao
+    E000062     functions_select                                    update_configuracoes
+    E000063     functions_select                                    getConfiguracaoHostAutorizado
+    E000064     functions_select                                    getConfiguracaoHostAutorizadoId
+    E000065     functions_select                                    update_configuracoes_host
+    E000066     functions_select                                    insert_configuracoes_host
+    E000067     functions_select                                    getConfiguracaoHostAutorizadoDelet
+    E000068     functions_select                                    getConfiguracaoSuporte
+    E000069     functions_select                                    getConfiguracaoSuporteAlterar
+    E000070     functions_select                                    update_configuracoes_suporte
+    E000071     functions_select                                    updateServativ
+    E000072     functions_select                                    getBalanceIntoYear
+    E000073     functions_select                                    getBalanceIntoMonth
+    E000074     functions_select                                    validateBalanceMonth
+    E000075     functions_select                                    validateBalanceWeek
+    E000076     functions_select                                    buscaServidoresParaEnvioSiape
+    E000077     functions_select                                    buscaCargos
+    E000078     functions_select                                    getInfoServidor
+    E000079     functions_select                                    verifyHomologado
+    E000080     functions_select                                    verifyIfSendSiape
+    E000081     functions_select                                    salvarRegistroEnvioSiape
+    E000082     functions_select                                    criarXmlConsultaAfastamentosSiape
+    E000083     functions_select                                    criarXmlIncluirAfastamentosSiape
+    E000084     functions_select                                    recuperarServidorParaEnviarSiape
+    E000085     functions_select                                    updateServerBySiape
+E000086     sisref_relatorio_ocorrencia_nao_compensada_html     htmlServidor_sem_remuneracao
+E000087     sisref_relatorio_ocorrencia_nao_compensada_html     seleciona_servidores_sem_remuneracao
+E000088     sisref_relatorio_ocorrencia_nao_compensada_html     htmlServidor_com_desconto
+E000089     sisref_relatorio_ocorrencia_nao_compensada_html     htmlServidor_com_desconto
+E000090     sisref_relatorio_ocorrencia_nao_compensada_html     htmlServidor_com_desconto
+E000091     sisref_relatorio_ocorrencia_nao_compensada_html     htmlServidor_com_desconto
+E000092     sisref_relatorio_ocorrencia_nao_compensada_html     htmlServidor_com_desconto
+E000093     sisref_relatorio_ocorrencia_nao_compensada_html     htmlServidor_com_desconto
+E000094     sisref_relatorio_ocorrencia_nao_compensada_html     function seleciona_servidores_com_desconto
+E000095     secaodousuario                                      ------------------------------------------
+E000096     functions_select                                    seleciona_servidoresac
+E000097     functions_select                                    saveOvertimeInDatabase
+E000098     functions_select                                    saveOvertimeInDatabase
+E000099     functions_select                                    saveOvertimeInDatabase
+E000100     functions_select                                    saveHistoricalOvertime
+E000101     functions_select                                    saveHistoricalOvertime
+E000102     functions_select                                    saveHistoricalOvertime
+E000103     functions_select                                    getNomeSocialServidor
+E000104     functions_select                                    create_or_update_autorizacao
+E000105     functions_select                                    create_or_update_autorizacao
+E000106     alteraferiado                                       selecionaDadosDoFeriado
+E000107     alteraferiado                                       selecionaDadosDaUnidade
+E000108     alteraferiado                                       selecionaOptionsLotacao
+E000109     alteraferiado                                       selecionaOptionsCidades
+E000110     alteraferiado_reg                                   ------------------------------------------
+E000111     alterafunc                                          ------------------------------------------
+E000112     alteraocfre                                         ------------------------------------------
+E000113     alterausurhg                                        ------------------------------------------
+E000114     altfuncserv2                                        ------------------------------------------
+E000115     altfuncserv2 (USUÁRIOS)                             ------------------------------------------
+E000116     ativa_ou_desativa_substituicoes                     VerificaSubstituicoesRegistradas
+E000117     ativa_ou_desativa_substituicoes                     ------------------------------------------
+E000118     ativa_ou_desativa_substituicoes                     ------------------------------------------
+E000119     ativa_ou_desativa_substituicoes                     ------------------------------------------
+E000120     ativa_ou_desativa_substituicoes                     ------------------------------------------
+E000121     inc\calculo_horas_comuns_saldos                     resultado_horas_comuns
+E000122     frequencia_homologar                                verificaLiberadaHomologacaoMensal
+E000123     frequencia_homologar                                verificaUnidadeLiberadaHomologacao
+E000124     tabvalida                                           ------------------------------------------
+E000125     tabvalida                                           tabHomologacaoVerificacao
+E000126     tabvalida                                           tabHorarioDeVerao
+E000127     tabvalida                                           tabRecessoDeFimDeAno
+E000128     tabvalida                                           tabQuartaFeiraDeCinzas
+E000129     gestao_liberar_homologacao_solicitacao_gravar.php   ------------------------------------------
+E000130     cadastro_exclusao_grava.php                         ------------------------------------------
+E000131
+E000132
+E000133
+E000134
+E000135
+E000136
+E000137
+E000138
+E000139
+
+Código      Arquivo                             Class                                               Method
+E200001     DadosServidoresModel                DadosServidoresModel                                substitutosEfetivados
+E200002     DadosServidoresModel                DadosServidoresModel                                servidoresComDelegacao
+E200003     DadosServidoresModel                DadosServidoresModel                                selecionaServidoresUnidade
+E200004     DadosServidoresModel                DadosServidoresModel                                selecionaServidoresUnidadeBancoHoras
+E200005     DadosServidoresModel                DadosServidoresModel                                selecionaServidoresUnidadeBancoHorasUsufruto
+E200006     DadosServidoresModel                DadosServidoresModel                                selecionaServidorPorMatricula
+E200007     DadosServidoresModel                DadosServidoresModel                                selecionaRegistroPorMatricula
+E200008     DadosServidoresModel                DadosServidoresModel                                selecionaServidorPorCargo
+E200009     DadosServidoresModel                DadosServidoresModel                                selecionaServidoresLiberacaoIPS
+E200010     DadosServidoresModel                DadosServidoresModel                                getDataAdmissaoDoServidor
+E200011     DadosServidoresModel                DadosServidoresModel                                getNomeServidor
+E200012     DadosServidoresModel                DadosServidoresModel                                getSitRegJur
+
+E200013     TabFacultativo172Model              TabFacultativo172Model                              CodigoEventoEsportivoNaoExibir
+E200014     TabFacultativo172Model              TabFacultativo172Model                              CodigoEventoEsportivoNaoExibir
+E200015     TabFacultativo172Model              TabFacultativo172Model                              CodigoEventoEsportivoNaoExibir
+E200016     TabFacultativo172Model              TabFacultativo172Model                              EventosCodigos
+E200017     TabFacultativo172Model              TabFacultativo172Model                              verificaPeriodoCompensacaoEvento
+E200018     TabFacultativo172Model              TabFacultativo172Model                              verificaDiaEventoAutorizado
+
+E200019     TabOcorrenciaModel                  TabOcorrenciaModel                                  padraoSQL
+E200020     TabOcorrenciaModel                  TabOcorrenciaModel                                  insert
+E200021     TabOcorrenciaModel                  TabOcorrenciaModel                                  update
+E200022     TabOcorrenciaModel                  TabOcorrenciaModel                                  delete
+E200023     TabOcorrenciaModel                  TabOcorrenciaModel                                  carregaCampoEnum
+
+E200024     TabBancoDeHorasCiclosModel          TabBancoDeHorasCiclosModel                          getCicloCurrent
+E200025     TabBancoDeHorasCiclosModel          TabBancoDeHorasCiclosModel                          registrosBancoDeHorasCiclos
+E200026     TabBancoDeHorasCiclosModel          TabBancoDeHorasCiclosModel                          validaRangeDates
+E200027     TabBancoDeHorasCiclosModel          TabBancoDeHorasCiclosModel                          gravar_ciclo
+E200028     TabBancoDeHorasCiclosModel          TabBancoDeHorasCiclosModel                          update_ciclo
+E200029     TabBancoDeHorasCiclosModel          TabBancoDeHorasCiclosModel                          registrosBancoDeHorasCiclosPorID
+E200030     TabBancoDeHorasCiclosModel          TabBancoDeHorasCiclosModel                          registrosBancoDeHorasCiclosPorOrgao
+E200031     TabBancoDeHorasCiclosModel          TabBancoDeHorasCiclosModel                          insert
+E200032     TabBancoDeHorasCiclosModel          TabBancoDeHorasCiclosModel                          update
+E200033     TabBancoDeHorasCiclosModel          TabBancoDeHorasCiclosModel                          delete
+E200034     TabBancoDeHorasCiclosModel          TabBancoDeHorasCiclosModel                          historico
+E200035     TabBancoDeHorasCiclosModel          TabBancoDeHorasCiclosModel                          getCicloBySiape
+E200036     TabBancoDeHorasCiclosModel          TabBancoDeHorasCiclosModel                          getCicloBySiapeUsufruto
+
+E200037     DadosServidoresModel                DadosServidoresModel                                getCarreira
+
+E200038     TabPontoAuxiliarModel               TabPontoAuxiliarModel                               incluirPontoAuxiliarBancoDeHoras
+E200039     TabPontoAuxiliarModel               TabPontoAuxiliarModel                               incluirPontoAuxiliarBancoDeHoras
+
+E200040     ativa_ou_desativa_substituicoes     VerificaSubstituicoesRegistradas                    executa
+E200041     ativa_ou_desativa_substituicoes     VerificaSubstituicoesRegistradas (OCUPANTES)        executa
+E200042     ativa_ou_desativa_substituicoes     VerificaSubstituicoesRegistradas (CADASTRO)         executa
+E200043     ativa_ou_desativa_substituicoes     VerificaSubstituicoesRegistradas (USUÁRIOS)         executa
+E200044     ativa_ou_desativa_substituicoes     VerificaSubstituicoesRegistradas (SUBSTITUIÇÃO)     executa
+
+E200045     TabBancoDeHorasCiclosModel          TabBancoDeHorasCiclosModel                          getCicloBySiapeYear
+
+E200046     TabBancoDeHorasAcumulosModel        TabBancoDeHorasAcumulosModel                        insertAutorizacoesServidoresUsufruto
+
+E200047     TabServativModel                    TabServativModel                                    selecionaDadosServidores_e_PlantonistasPorMatricula
+E200048     TabServativModel                    TabServativModel                    		    updateServerCarregaDadosDoServativ
+E200049     TabServativModel                    TabServativModel                    		    updateServerAtualizarServativ
+
+E200050     TabPontoModel                       TabServativModel                                    registrosPorSiapeDia
+E200051     TabPontoModel                       TabServativModel                                    registrosPorID
+E200052     TabPontoModel                       TabServativModel                                    registrosPorSiapeHistorico
+E200053     TabPontoModel                       TabServativModel                                    insert
+E200054     TabPontoModel                       TabServativModel                                    update
+E200055     TabPontoModel                       TabServativModel                                    delete
+E200056     TabPontoModel                       TabServativModel                                    insertHistorico
+
+E200057     TabFuncaoModel                      TabFuncaoModel                                      padraoSQL
+E200058     TabFuncaoModel                      TabFuncaoModel                                      dadosFuncaoResponsavelUnidade
+E200059     TabFuncaoModel                      TabFuncaoModel                                      dadosFuncoesSiapeCodigo
+E200060     TabFuncaoModel                      TabFuncaoModel                                      CarregaCodigoFuncoesSiape
+E200061     TabFuncaoModel                      TabFuncaoModel                                      insert
+E200062     TabFuncaoModel                      TabFuncaoModel                                      update
+E200063     TabFuncaoModel                      TabFuncaoModel                                      delete
+
+
+
+E300001     class_form.frequencia               formFrequencia                                      setConexaoBD
+E300002     class_form.frequencia               formFrequencia                                      loadDadosSetor
+E300003     class_form.frequencia               formFrequencia                                      loadDadosPonto
+E300004     class_form.frequencia               formFrequencia                                      copiaPontoParaTemporario
+E300005     class_form.frequencia               formFrequencia                                      copiaTemporarioParaPonto
+E300006     class_form.frequencia               formFrequencia                                      copiaTemporarioParaPonto
+E300007     class_form.frequencia               formFrequencia                                      gravaHistPonto
+E300008     class_form.frequencia               formFrequencia                                      inserirDiasSemFrequencia
+E300009     class_form.frequencia               formFrequencia                                      inserirDiasSemFrequencia
+E300010     class_form.frequencia               formFrequencia                                      validaParametros
+E300011     class_form.frequencia               formFrequencia                                      calculaHorasTrabalhadas_old
+E300012     class_form.frequencia               formFrequencia                                      processaOcorrencias
+E300013     class_form.frequencia               formFrequencia                                      calculaHorasTrabalhadas
+E300014     class_form.frequencia               formFrequencia                                      calculaHorasTrabalhadas
+E300015     class_form.frequencia               formFrequencia                                      verificaSeFeriado
+E300016     class_form.frequencia               formFrequencia                                      verificaSeFeriado
+E300017     class_form.frequencia               formFrequencia                                      pontoFacultativo
+E300018     class_form.frequencia               formFrequencia                                      pontoFacultativo
+E300019     class_form.frequencia               formFrequencia                                      ocorrenciasTotal
+E300020     class_form.frequencia               formFrequencia                                      ocorrenciasTotalHoras
+E300021     class_form.frequencia               formFrequencia                                      verificaPeriodoDaCopa2014
+E300022     class_form.frequencia               formFrequencia                                      exibeForm
+E300023     class_form.frequencia               formFrequencia                                      exibeFormRegistro14
+E300024     class_form.frequencia               formFrequencia                                      exibeFormRegistro14
+E300025     class_form.frequencia               formFrequencia                                      exibeFormRegistro15
+E300026     class_form.frequencia               formFrequencia                                      copiaTemporarioParaPonto
+E300027     class_form.frequencia               formFrequencia                                      copiaTemporarioParaPonto
+E300028     class_form.frequencia               formFrequencia                                      copiaTemporarioParaPonto
+E300029     class_form.frequencia               formFrequencia                                      copiaTemporarioParaPonto
+E300030     class_form.frequencia               formFrequencia                                      copiaTemporarioParaPonto
+E300031     class_form.registro.ocorrencia      formRegistraOcorrencia                              exibeForm
+E300032     class_form.registro.ocorrencia      formRegistraOcorrencia                              exibeForm
+E300033     class_form.registro.ocorrencia      formRegistraOcorrencia                              exibeForm
+
+
+

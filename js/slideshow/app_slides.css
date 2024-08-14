@@ -1,0 +1,39 @@
+.swiper-container {
+    width: 900px;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color:#000;
+    opacity: 90;
+    background: rgba(0,0,0,0.2);
+}
+.swiper-pagination-bullet-active {
+    color:#fff;
+    background: #007aff;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,.swiper-pagination-custom,.swiper-pagination-fraction{text-align:left;top:0px;bottom:10px;left:0;width:100%}

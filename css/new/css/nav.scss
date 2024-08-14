@@ -1,0 +1,148 @@
+@import "config.scss";
+
+//CSS referente a cor do hover nos links da navbar
+nav{
+    font-weight: 400;
+}
+
+ul.nav {
+
+    a {
+        color: $font-header-color!important;
+
+        .dropdown-toggle{
+            background-color: $color-primary;
+            color:$font-header-color;
+        }
+    }
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+    background-color: $color-secondary;
+}
+.navbar-default{
+    background-color: $color-primary;
+    color:$font-header-color;
+
+    .navbar-brand{
+        display: block;
+        color: $font-header-color;
+
+        &:hover, &:focus{
+            color: $color-secondary !important;
+        }
+
+        &:hover > .subtitulo-texto {
+            border-left: 2px solid $color-secondary;
+        }
+
+        .subtitulo-texto{
+            margin-top:-10px;
+            float:right;
+            font-size: 0.6em;
+            border-left: 2px solid $color-separator-line;
+            padding-left:10px;
+            margin-left: 10px;
+
+            &:hover,&:focus{
+                color:$color-secondary;
+            }
+        }     
+        .texto-sistema{
+            font-size: 2em;
+            font-weight: bold;
+
+            &:hover,&:focus{
+                color: $color-secondary!important;
+            }
+        }
+    }
+}
+
+#logo {
+    height: 150px;
+    width: 200px;
+}
+
+.barra-brasil {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+}
+//
+// CSS referente ao footer, alocando o mesmo no bottom fixamente.
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu>li>a {
+    background-color: $color-primary;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-menu{
+    background-color: $color-primary;
+}
+
+.dropdown-menu .divider{
+    background-color: $font-header-color;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open{
+    background-color: $color-secondary;
+
+    a:hover{
+        background-color: $color-secondary;
+        color:$font-header-color;
+    }
+}
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: white!important;
+    background-color: $color-secondary;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}

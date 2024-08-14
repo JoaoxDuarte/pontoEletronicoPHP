@@ -1,0 +1,18 @@
+@media print {
+    html, frame, frameset {
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    body {
+        background: #FFF; color: #000;
+        font-size:9pt;
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin:0;
+        width: 100%;
+    }
+    table { page-break-inside:avoid; width: 100%; }
+
+}

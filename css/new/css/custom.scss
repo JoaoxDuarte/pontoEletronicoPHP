@@ -1,0 +1,158 @@
+@import "config.scss";
+@import "nav.scss";
+@import "helpers.scss";
+@import "footer.scss";
+
+//iniciar leitura pelo arquivo config.scss
+
+.captcha{
+    @extend .margin-bottom-10;
+}
+
+.hora{
+    color: $font-color-secondary;
+    font-size: 3em;
+    @extend .vertical-align;
+}
+
+.hora-atual{
+    @extend .text-center;
+    h4{
+        @extend .lettering-tittle;
+        margin-bottom: -6px;
+    }
+    .glyphicon{
+        top:6px;
+    }
+}
+
+.p-formatado{
+    font-size: 1.5em;
+    margin-top:-8px;
+    font-weight: 300;
+}
+
+#dados-funcionario{
+    @extend .text-center;
+
+    p{
+        @extend .p-formatado;
+    }
+    h5{
+        @extend .uppercase;
+    }
+}
+
+
+#dados-setor{
+    @extend .text-center;
+
+    p{
+        @extend .p-formatado;
+    }
+    h5{
+        @extend .uppercase;
+    }
+}
+
+/*
+    Refere-se a parte da coluna do Registro de comparecimento
+*/
+
+#registros{
+    @extend .text-center;
+    @extend .margin-10;
+    p{
+        @extend .p-formatado;
+    }
+    h5{
+        @extend .uppercase;
+    }
+
+    h4 {
+        @extend .uppercase;
+        padding-bottom:8px;
+        border-bottom: 1px solid black;
+    }
+    button {
+        @extend .uppercase;
+        @extend .vertical-align;
+    }
+}
+
+// Refere-se ao header cinza "Registro de comparecimento"
+.comparecimento{
+    background-color: $header-cinza;
+    @extend .margin-10;
+    h3{
+        @extend .text-center;
+        @extend .uppercase;
+        font-weight: 300;
+        margin-top:10px;
+    }
+}
+
+#botoes-iteracao{
+    @extend .margin-80;
+    margin-bottom:20px;
+
+    button{
+        min-height: 75px;
+        font-size:1.3em;
+        font-weight: 300;
+        padding-top: 20px;
+        letter-spacing: 0.05em;
+    }
+    .btn-icon{
+        display:block;
+        float:left;
+        font-size:2.8em;
+    }
+}
+
+.alert{
+    font-size:1.2em;
+}
+
+.row {
+    .subtitle{
+        border-bottom: 1px solid black;
+        margin-bottom:10px;
+    }
+}
+
+.demonstrativo{
+    font-size: 1.2em;
+}
+
+#form-comparecimento.container{
+    width:85%;
+}
+
+.red{
+    color:red;
+}
+
+.blue{
+    color:deepskyblue;
+}
+
+td{
+    a.red{
+        @extend .red;
+        font-weight: bold;
+
+    }
+
+    a.blue{
+        @extend .blue;
+    }
+}
+
+.legendas{
+    font-size:0.8em;
+}
+
+
+#black_overlay {display:none;position:fixed;top:0%;left:0%;width:100%;height:100%;background-color:black;z-index:1001;-moz-opacity:0.3;opacity:.30;filter:alpha(opacity=30);}
+#white_content {display:none;position:absolute;top:25%;left:25%;width:50%;height:50%;padding:16px;border:16px solid orange;background-color:white;z-index:1002;overflow:auto;}

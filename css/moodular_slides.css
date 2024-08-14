@@ -1,0 +1,9 @@
+#mensagens_comunicacao_social { margin:0; padding:0; width:757px; height:155px; list-style:none; overflow: hidden; text-align: center; background-color: #f2f2f2;}
+#mensagens_comunicacao_social li { float:left; width: 155px; overflow: hidden; }
+#index ul { margin: 0; padding: 0; list-style: none; font-size: 10px; font-family: Arial, Verdana; }
+#index ul li { margin-left: 1.5px; padding: 2px; padding-left: 3px; padding-right: 3px; padding-bottom: 2px; float: left; color: #000000; background-color: #f2f2f2; }
+#index ul li.active { margin-left: 1.5px; position: relative; top: 3px; left: 0px; padding-top: 2px; padding-left: 3px; padding-right: 3px; padding-bottom: 2px; font-weight: bold; color: red; background-color: #f2f2f2; }
+#mensagens_comunicacao_social_thumbs { width: 330px; height: 50px; list-style: none; overflow: hidden; display: block; margin: 0; padding: 0; }
+#mensagens_comunicacao_social_thumbs li { width: 110px; height: 50px; text-align: center; display: block; float: left; }
+#mensagens_comunicacao_social_thumbs li img { margin: 0 auto; display: block; height: 50px; }
+#mensagens_comunicacao_social_thumbs li.current { background: #131282; }

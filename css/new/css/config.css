@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* Vari├íveis do Esquema de Cores
+
+color-primary: Refere-se a cor principal do header e do footer.
+color-secondary: Refere-se a cor que complementa o a cor principal, em caso de keypress ou hovers.
+color-separator-line: Se refere a cor do separador entre o titulo e subtitulo do texto da logo.
+*/
+/* Vari├íveis referentes a tipografia do projeto
+ 
+    font-color: refere-se a cor da tipografia principal no corpo do projeto
+    font-base: familia da fonte principal do projeto
+    font-header: familia referentes ao headers em destaques, quando aplic├ível
+    font-header-color: cor da fonte no header
+
+    A escolha das fontes Open Sans e Arial nesse projeto em espec├¡fico se d├í devido a padroniza├º├�?es do governo(ver manual Sigepe).
+*/
+html {
+    position: relative;
+    min-height: 100%; }
+
+body {
+    font-family: "Open Sans", Serif;
+    color: #52504e;
+    margin-bottom: 60px;
+    font-weight: 300; }
+
+.container #login {
+    padding-top: 100px;
+    min-height: 800px; }
+
+/*# sourceMappingURL=config.css.map */

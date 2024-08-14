@@ -1,0 +1,70 @@
+[16:10:02][10.209.63.46][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='170001145637', tipo='1', debito_anterior='-00:00:00', creditos_corrente='03:09', sub_total='03:09', debitos_corrente='-08:00', total='-04:51', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 170001145637
+:comp => 201909
+ 
+[16:10:04][10.209.63.47][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='170001828251', tipo='1', debito_anterior='-00:00:00', creditos_corrente='10:34', sub_total='10:34', debitos_corrente='-17:00', total='-06:26', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 170001828251
+:comp => 201909
+ 
+[16:10:08][10.209.63.47][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='170001828251', tipo='1', debito_anterior='-00:00:00', creditos_corrente='10:34', sub_total='10:34', debitos_corrente='-17:00', total='-06:26', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 170001828251
+:comp => 201909
+ 
+[16:10:59][10.209.63.47][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='170001828251', tipo='1', debito_anterior='-00:00:00', creditos_corrente='10:34', sub_total='10:34', debitos_corrente='-17:00', total='-06:26', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 170001828251
+:comp => 201909
+ 
+[16:13:09][10.209.63.102][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='170000442060', tipo='1', debito_anterior='-00:00:00', creditos_corrente='02:23', sub_total='02:23', debitos_corrente='-17:23', total='-15:00', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 170000442060
+:comp => 201909
+ 
+[16:14:43][10.209.63.46][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='170001145637', tipo='1', debito_anterior='-00:00:00', creditos_corrente='03:09', sub_total='03:09', debitos_corrente='-08:00', total='-04:51', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 170001145637
+:comp => 201909
+ 
+[16:18:13][10.209.63.46][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='170001145637', tipo='1', debito_anterior='-00:00:00', creditos_corrente='03:09', sub_total='03:09', debitos_corrente='-08:00', total='-04:51', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 170001145637
+:comp => 201909
+ 
+[16:19:38][10.209.63.46][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='170001145637', tipo='1', debito_anterior='-00:00:00', creditos_corrente='03:09', sub_total='03:09', debitos_corrente='-08:00', total='-04:51', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 170001145637
+:comp => 201909
+ 
+[16:23:09][10.209.63.46][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='170001145637', tipo='1', debito_anterior='-00:00:00', creditos_corrente='03:09', sub_total='03:09', debitos_corrente='-08:00', total='-04:51', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 170001145637
+:comp => 201909
+ 
+[16:29:10][10.209.63.102][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='170001145637', tipo='1', debito_anterior='-00:00:00', creditos_corrente='03:09', sub_total='03:09', debitos_corrente='-08:00', total='-04:51', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 170001145637
+:comp => 201909
+ 
+[16:30:53][10.209.63.46][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='170001145637', tipo='1', debito_anterior='-00:00:00', creditos_corrente='03:09', sub_total='03:09', debitos_corrente='-08:00', total='-04:51', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 170001145637
+:comp => 201909
+ 
+[16:33:05][10.209.63.46][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='170001145637', tipo='1', debito_anterior='-00:00:00', creditos_corrente='03:09', sub_total='03:09', debitos_corrente='-08:00', total='-04:51', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 170001145637
+:comp => 201909
+ 
+[16:45:52][10.209.63.47][10.209.63.129]> INSERT banco_de_horas SET comp='201909', siape='202241549697', tipo='1', debito_anterior='-00:00:00', creditos_corrente='00:00', sub_total='00:00', debitos_corrente='-89:01', total='-89:01', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  
+[16:47:17][10.209.63.47][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='202241549697', tipo='1', debito_anterior='-00:00:00', creditos_corrente='00:00', sub_total='00:00', debitos_corrente='-89:01', total='-89:01', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 202241549697
+:comp => 201909
+ 
+[16:47:19][10.209.63.47][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='202241549697', tipo='1', debito_anterior='-00:00:00', creditos_corrente='00:00', sub_total='00:00', debitos_corrente='-89:01', total='-89:01', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 202241549697
+:comp => 201909
+ 
+[16:53:19][10.209.63.46][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='170001145637', tipo='1', debito_anterior='-00:00:00', creditos_corrente='03:09', sub_total='03:09', debitos_corrente='-08:00', total='-04:51', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 170001145637
+:comp => 201909
+ 
+[16:55:04][10.209.63.46][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='170001145637', tipo='1', debito_anterior='-00:00:00', creditos_corrente='03:09', sub_total='03:09', debitos_corrente='-08:00', total='-04:51', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 170001145637
+:comp => 201909
+ 
+[18:11:31][10.209.63.46][10.209.63.129]> UPDATE banco_de_horas SET comp='201909', siape='170001145637', tipo='1', debito_anterior='-00:00:00', creditos_corrente='03:09', sub_total='03:09', debitos_corrente='-08:00', total='-04:51', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  WHERE siape= :siape AND comp= :comp 
+:siape => 170001145637
+:comp => 201909
+ 
+[18:48:09][10.209.63.46][10.209.63.129]> INSERT banco_de_horas SET comp='201909', siape='401061507742', tipo='1', debito_anterior='-00:00:00', creditos_corrente='00:00', sub_total='00:00', debitos_corrente='-96:00', total='-96:00', situacao='<font color=red><b>NÃO HOMOLOGADO</b></font>'  

@@ -1,0 +1,10 @@
+<?php
+
+// Dados par ao formulario
+$sFormCaminho   = 'Tabelas » Lotações';
+$sFormsubTitulo = "Tabela de Setores - Manutenção";
+$sFormAcao      = "tablota.php";
+$sFormSubmit    = "return validar()";
+$sFormDestino   = "tablota_alterar.php";
+
+include_once( "tablota_formulario.php" );

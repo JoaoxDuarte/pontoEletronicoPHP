@@ -1,0 +1,90 @@
+@media print {
+    html, frame, frameset {
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden; }
+    body {background: #FFF; color: #000;
+          font-size:9pt;
+          overflow: hidden;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          margin:0 }
+    #sidebar { display:none }
+    #header { height:55px }
+    #content{ margin-left:0;
+              float:none;
+              width:auto }
+    #content a { font-weight:bold;
+                 color:#000066;
+                 text-decoration:underline }
+    #content{ margin-left:0;
+              float:none;
+              width:auto }
+    #footer, .ad { display:none }
+    h1, h2, h3, h4, h5, h6 { }
+    h3 { margin-left:5px;
+         margin-bottom:0px;
+         padding-bottom:0px }
+    blockquote { page-break-inside:avoid }
+    .sometable { display: none; }
+    img { display: none; }
+    .Classe_Ocultar_Impressao { display: none; }
+    #so_na_tela { display: none; }
+    #table_impressao { padding: 4px;
+                       margin: 0 0 2px 7px;
+                       display: inline;
+                       position: relative;
+                       top: -100px;
+                       left: -10px;
+                       width: 100%;
+                       text-align: left;}
+    table { padding: 4px;
+            margin: 0 0 2px 7px;
+            display: inline;
+            position: relative;
+            top: 0;
+            left: -10px;
+            width: 100%;
+            text-align: left;}
+    .fieldsetw { padding: 0px;
+                 margin: 0 0 0 0;
+                 width: 78%; }
+    .divw2 { padding: 4px;
+             margin: 0 0 2px 7px;
+             width: 78%; }
+    .tablew { padding: 4px;
+              margin: 0 0 2px 7px;
+              display: inline;
+              width: 70%;
+              left: -35px;
+              position: relative;
+              font-size: 8px;
+              text-align: left; }
+    .tablew2 { padding: 1px;
+               margin: 0 0 0 0;
+               display: inline;
+               width: 50%;
+               position: relative;
+               left: -74px;
+               font-size: 7px;
+               text-align: left; }
+    .tablew21 { padding: 1px;
+                margin: 0 0 0 0;
+                display: inline;
+                width: 99%;
+                position: relative;
+                left: -5px;
+                font-size: 6px;
+                text-align: left; }
+    input.centro {
+        font: 11px verdana, arial, helvetica;
+        color: #000000;
+        border: 1px solid #696969;
+        padding-left: 1px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        background-color: white;
+        text-align: Center;
+        font-weight: bold; }
+
+}

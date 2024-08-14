@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/02/2019, 11:15:03
+    Author     : Edinalvo
+*/
+
+.sigac{
+    background-color: #d2deed;
+    border-radius: 16px;
+    margin-top: 5em;
+    border: 1px solid #ababab;
+}
+
+.line{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 10px;
+    border-bottom: 1px solid #ababab;
+    position: absolute;
+}
+
+.botao-sigac{
+    margin: 10% 10% 5% 12.5%;
+    margin-left: 2pc;
+    width: 300px;
+}
+
+.label-sigac{
+    color: #242222;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.sigac-btn-icone {
+    max-width: 2em;
+    max-height: 2em;
+    margin-bottom: 0.15em;
+}
+
+.sigac-login-btn-azul-span {
+    color: #FFFFFF;
+    font-size: 1em;
+    padding-left: 13px;
+}

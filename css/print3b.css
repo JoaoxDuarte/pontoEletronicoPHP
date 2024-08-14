@@ -1,0 +1,12 @@
+@media print {
+    body {
+        font-size:9pt;
+        margin:0;
+        background: #FFF;
+        color: #000;
+        line-height: 1.2;
+    }
+    img { display: none; }
+    #so_na_tela { display: none; }
+    #teste { visibility: visible; }
+}

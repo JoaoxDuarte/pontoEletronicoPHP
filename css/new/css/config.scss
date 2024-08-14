@@ -1,0 +1,54 @@
+/* Variáveis do Esquema de Cores
+
+color-primary: Refere-se a cor principal do header e do footer.
+color-secondary: Refere-se a cor que complementa o a cor principal, em caso de keypress ou hovers.
+color-separator-line: Se refere a cor do separador entre o titulo e subtitulo do texto da logo.
+*/
+
+$color-primary: #0c691c;
+$color-secondary: #00420c;
+$color-separator-line: white;
+
+/* Variáveis referentes a tipografia do projeto
+
+    font-color: refere-se a cor da tipografia principal no corpo do projeto
+    font-base: familia da fonte principal do projeto
+    font-header: familia referentes ao headers em destaques, quando aplicável
+    font-header-color: cor da fonte no header
+
+    A escolha das fontes Open Sans e Arial nesse projeto em específico se dá devido a padronizações do governo(ver manual Sigepe).
+*/
+
+
+$font-color: #52504e;
+$font-color-secondary: #6c6c6c;
+$font-header-color: white;
+$font-base: 'Open Sans',Serif;
+$font-header : 'Arial',Serif;
+$header-cinza: #e7e7e7;
+
+// Css referente as Tags do projeto
+$footer-size: 60px;
+
+//Necessário para footer fixo
+html{
+    position: relative;
+    min-height: 100%;
+
+}
+
+//margin-botton necessária para footer
+body {
+    //min-height: 800px;
+    font-family: $font-base;
+    color: $font-color;
+    margin-bottom: $footer-size;
+    font-weight: 300;
+}
+
+.container {
+    #login{
+        padding-top:100px;
+        /*min-height:800px;*/
+    }
+}
